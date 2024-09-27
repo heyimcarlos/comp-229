@@ -1,0 +1,36 @@
+{
+  "name": "Assignment 1",
+  "version": "0.0.1",
+  "author": "Carlos<carlos.cruzta@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "debug": "nodemon --trace-warnings src/index.js",
+    "build": "rm -rf ./dist/ && npm run tsc",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/dotenv": "^6.1.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.5.4",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "zod": "^3.23.8"
+  }
+}
